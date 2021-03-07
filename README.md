@@ -5,6 +5,6 @@ This is the team's repository
 
 ## Unit 2
 
-## Unite 3
+## Unit 3
 
-## Unite 4
+## Unit 4
