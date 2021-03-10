@@ -1,4 +1,5 @@
 # Practica_1
+``` scala
 
 //1. Desarrollar un algoritmo en scala que calcule el radio de un circulo
     
@@ -6,7 +7,7 @@
   var radio: Double=0
 
   radio=diametro/2
-  
+  ``` 
 
 //2. Desarrollar un algoritmo en scala que me diga si un numero es primo
 var numero: Int = 7 
