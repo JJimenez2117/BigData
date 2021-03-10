@@ -7,7 +7,7 @@
   var radio: Double=0
 
   radio=diametro/2
-  ``` 
+
 
 //2. Desarrollar un algoritmo en scala que me diga si un numero es primo
 var numero: Int = 7 
@@ -34,3 +34,4 @@ if (primo == true)
 
 var bird: String = "tweet"
 println(s"Estoy escribiendo un ${bird}")
+``` 
