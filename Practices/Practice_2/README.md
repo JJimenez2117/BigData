@@ -1,5 +1,5 @@
 # Practica_2
-''' scala
+``` scala
 //Practice 2
 // 1. Crea una lista llamada "lista" con los elementos "rojo", "blanco", "negro"
 var lista=List("rojo","blanco","negro")
@@ -13,4 +13,4 @@ var listafinal= "perla" :: temp4
 listafinal.slice(2,5)
 // 4. Crea un arreglo de numero en rango del 1-1000 en pasos de 5 en 5
 var arreglo=Array(Range(1,1001,5))
-'''
+```
