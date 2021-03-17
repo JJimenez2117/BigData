@@ -23,6 +23,31 @@ def fiboexp(n:Double):Double={
 
 fiboexp(15)
 
+
+//Version 3
+def fib(n:Int):Int{
+    
+    var a = 0;
+    var b = 1;
+    var c = 0;
+     
+    for ( k <- 0 to n) 
+    {
+        c = b+a;
+        a = b;
+        b = c;
+
+        printf(""+a);
+    }
+
+}
+
+fib(100)
+
+
+
+
+
 //version6
 
 import util.control.Breaks._
