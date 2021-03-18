@@ -25,7 +25,7 @@ fiboexp(15)
 
 
 //Version 3
-def fib(n:Int):Int{
+def fib(n:Int):Int={
     
     var a = 0;
     var b = 1;
@@ -33,19 +33,53 @@ def fib(n:Int):Int{
      
     for ( k <- 0 to n) 
     {
-        c = b+a;
-        a = b;
-        b = c;
+        c = b+a
+        a = b
+        b = c
 
-        printf(""+a);
+        return a
     }
 
 }
 
 fib(100)
 
+// Version 4
 
+def fib (n:Int):Int={
 
+    var a = 0
+    var b = 1
+    for ( k <- 0 to n) 
+    {
+        b = b + a
+        a = b - a
+
+        return b
+    }
+
+}
+
+// Version 5
+def fib (n: Int): Int{=
+
+    if (n < 2)
+    {
+        return n
+    }else
+    {
+        var  nums = new Array[int](n+1) 
+        var  nums(0) = 0
+        var  nums(1) = 1 
+
+        for ( k <- 2 to n+1) 
+        {
+            nums(k) = nums(k-1) - nums(k-2)
+
+        return nums(n)
+        }
+    }
+}
 
 
 //version6
