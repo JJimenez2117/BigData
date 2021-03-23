@@ -1,4 +1,6 @@
-# Exercise 1
+# Practice 4
+
+## Exercise 1
 
 ``` scala 
 // In this exercise a function called listEvens is created which will receive as a parameter a list of integers
@@ -39,6 +41,10 @@ listEvens(l)
 //333 is odd
 //res7: String = Done
 
+```
+
+## Exercise 2
+```scala
 
 // Exercise 2  afortunado
 // in the following code snippet a function called lucky is declared
