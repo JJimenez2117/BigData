@@ -13,6 +13,8 @@ This is the team's repository
 
 - [Practice1U2](https://github.com/JJimenez2117/BigData/blob/Unit2/Practices/Practice1/README.md)
 
+- [Evaluation practice 1](https://github.com/JJimenez2117/BigData/tree/Unit2/Evaluation2)
+
 ## Unit 3
 
 ## Unit 4
