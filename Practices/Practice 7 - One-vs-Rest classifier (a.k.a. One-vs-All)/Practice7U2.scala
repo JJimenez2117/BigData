@@ -1,54 +1,29 @@
 
+// Import Libraries
+importar  org . apache . chispa . ml . clasificación . { LogisticRegression , OneVsRest }
+importar  org . apache . chispa . ml . evaluación . Evaluador de clasificación multiclase
 
-// The following example loads a data set and divides it into test and training sets.
+// Upload the file
+val  inputData  = spark.read.format ( " libsvm " ) .load ( " sample_multiclass_classification_data.txt " )
 
-//  Import the necessary libraries
-import  org.apache.spark.ml.Pipeline 
-import  org.apache.spark.ml.classification.DecisionTreeClassificationModel 
-import  org.apache.spark.ml.classification.DecisionTreeClassifier 
-import  org.apache.spark.ml.evaluation.MulticlassClassificationEvaluator 
-import  org.apache .spark.ml.feature. { IndexToString ,  StringIndexer ,  VectorIndexer }
-import  org.apache.spark.sql.SparkSession
+// Generate the division of the train and test set.
+val  Array (tren, prueba) = inputData.randomSplit ( Array ( 0.8 , 0.2 ))
 
-// Load the data stored in LIBSVM format as a DataFrame.
-// It is implemented for optimization, it supports classification and regression.
-val data = spark.read.format("libsvm").load("/home/eduardo/Escritorio/expo/sample_libsvm_data.txt")
+// Instantiate the base classifier
+val  clasificador  =  new  LogisticRegression () .setMaxIter ( 10 ) .setTol ( 1E-6 ) .setFitIntercept ( verdadero )
 
-// Index tags, adding metadata to the tag column.
-// Fit in the entire dataset to include all labels in the index.
-val labelIndexer = new StringIndexer().setInputCol("label").setOutputCol("indexedLabel").fit(data)
+// An instance of the One Vs Rest classifier is created.
+val  ovr  =  new  OneVsRest () .setClassifier (clasificador)
 
-// Automatically identify categorical features and index them.
-val featureIndexer = new VectorIndexer().setInputCol("features").setOutputCol("indexedFeatures").setMaxCategories(4).fit(data)
+// Train (train) the multiclass model.
+val  ovrModel  = ovr.fit (tren)
 
-// Divide the data into test and training sets (30% reserved for testing).
-val Array(trainingData, testData) = data.randomSplit(Array(0.7, 0.3))
+// The model is scored on the test data.
+ predicciones  val = ovrModel.transform (prueba)
 
-// Train a DecisionTree model.
-val dt = new DecisionTreeClassifier().setLabelCol("indexedLabel").setFeaturesCol("indexedFeatures")
+// You get the evaluator
+val  evaluator  =  new  MulticlassClassificationEvaluator () .setMetricName ( " precisión " )
 
-// Convert indexed tags back to original tags.
-val labelConverter = new IndexToString().setInputCol("prediction").setOutputCol("predictedLabel").setLabels(labelIndexer.labels)
-
-// Chain of indexers and tree in a Pipeline.
-val pipeline = new Pipeline().setStages(Array(labelIndexer, featureIndexer, dt, labelConverter))
-
-// Train model. This also runs the indexers.
-val model = pipeline.fit(trainingData)
-
-// Make predictions.
-val predictions = model.transform(testData)
-
-// Select sample rows to display. In this case there will only be 5
-predictions.select("predictedLabel", "label", "features").show(10)
-
-// Seleccione (predicción, etiqueta verdadera).
-val evaluator = new MulticlassClassificationEvaluator().setLabelCol("indexedLabel").setPredictionCol("prediction").setMetricName("accuracy")
-
-// Select (prediction, true label).
-val accuracy = evaluator.evaluate(predictions)
-println(s"Test Error = ${(1.0 - accuracy)}")
-
-// Show by stages the classification of the tree model
-val treeModel = model.stages(2).asInstanceOf[DecisionTreeClassificationModel]
-println(s"Learned classification tree model:\n ${treeModel.toDebugString}")
+// The classification error in the test data is calculated.
+val  precisión  = evaluador.evaluar (predicciones)
+println ( s " Error de prueba = $ { 1  - precisión} " )
