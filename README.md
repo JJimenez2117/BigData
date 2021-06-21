@@ -20,6 +20,10 @@ This is the team's repository
 - [Practice 8](https://github.com/JJimenez2117/BigData/blob/Unit2/Practices/Practice%208%20-%20Naive%20Bayes/README.md)
 - [Evaluation 2](https://github.com/JJimenez2117/BigData/blob/Unit2/Evaluation2/README.md)
 
+- [Practice1U2](https://github.com/JJimenez2117/BigData/blob/Unit2/Practices/Practice1/README.md)
+
+- [Evaluation practice 1](https://github.com/JJimenez2117/BigData/tree/Unit2/Evaluation2)
+
 ## Unit 3
 - [Evaluation 3](https://github.com/JJimenez2117/BigData/blob/Unit3/evaluationPractice/README.md)
 
