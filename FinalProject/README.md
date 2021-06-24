@@ -1,5 +1,5 @@
 
-<p align="center"> itt </p>
+<p align="center"> </p>
 
  TECNOLÓGICO​ ​NACIONAL​ ​DE​ ​MÉXICO
   INSTITUTO TECNOLÓGICO DE TIJUANA
@@ -26,9 +26,9 @@
  Jimenez Ramirez Julio Fabian 17212147
 
  NOMBRE DEL DOCENTE :
- Jose Christian Romero Hernandez
+ Jose Christian Romero Hernandez </p>
 
-  </p>
+  
 
 
 
