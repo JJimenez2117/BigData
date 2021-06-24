@@ -68,7 +68,7 @@ Este documento tiene la finalidad de dar una breve explicación acerca de difere
 # Marco teorico de los algoritmos
 
 
-SupportVectorMachine
+## SupportVectorMachine
 Una máquina de vectores de soporte (SVM) es un algoritmo de aprendizaje supervisado que se utiliza para muchos problemas de clasificación y regresión, incluidas aplicaciones médicas de procesamiento de señales, procesamiento de lenguaje natural y reconocimiento de voz e imágenes.
 
 El objetivo del algoritmo SVM es encontrar un hiperplano que en la mejor medida posible separe los puntos de datos de una clase de los de la otra, para separar dos clases de datos hay muchos hiperplanos posibles. El objetivo del algoritmo es encontrar el que esté a mayor distancia entre los datos de ambas clases.
@@ -89,7 +89,7 @@ Desventajas
 Las Máquinas de Vectores de Soporte no son adecuadas para grandes conjuntos de datos debido a su alto tiempo de formación y también requiere más tiempo de formación en comparación con Naive Bayes. Funciona mal con clases superpuestas y también es sensible al tipo de núcleo utilizado.
 
 
- # Decision Tree
+ ## Decision Tree
 
 Los árboles de decisión son un método de aprendizaje supervisado no paramétrico que se utiliza para la clasificación y regresión. El objetivo es crear un modelo que prediga el valor de una variable objetivo mediante el aprendizaje de reglas de decisión simples inferidas de las características de los datos. Un árbol puede verse como una aproximación constante a trozos.
 
@@ -130,7 +130,7 @@ Las predicciones de los árboles de decisión no son uniformes ni continuos, sin
 
 
 
- #Logistic Regression
+ ## Logistic Regression
 
 La regresión logística es un algoritmo de modelado predictivo que se utiliza cuando la variable Y es categórica binaria. Es decir, solo puede tomar dos valores como 1 o 0. El objetivo es determinar una ecuación matemática que se puede usar para predecir la probabilidad del evento 1. Una vez que se establece la ecuación, se puede usar para predecir la Y cuando solo las X son conocidas.
 
@@ -152,7 +152,7 @@ La regresión lineal no tiene esta capacidad. Porque, si utiliza la regresión l
 
 
 
-# Multilayer perceptron
+## Multilayer perceptron
 
 Un perceptrón multicapa (MLP) es una clase de red neuronal artificial de retroalimentación
 
