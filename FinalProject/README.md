@@ -1,32 +1,32 @@
 
 <center>
 
- # TECNOLÓGICO​ ​NACIONAL​ ​DE​ ​MÉXICO
- # INSTITUTO TECNOLÓGICO DE TIJUANA
+  TECNOLÓGICO​ ​NACIONAL​ ​DE​ ​MÉXICO
+  INSTITUTO TECNOLÓGICO DE TIJUANA
 
-# SUBDIRECCIÓN ACADÉMICA
-# DEPARTAMENTO DE SISTEMAS Y COMPUTACIÓN
+ SUBDIRECCIÓN ACADÉMICA
+ DEPARTAMENTO DE SISTEMAS Y COMPUTACIÓN
 
-# SEMESTRE: 
-# Febrero - Julio 2021
+ SEMESTRE: 
+ Febrero - Julio 2021
 
-# CARRERA: 
-# Ing. en sistemas computacionales
+ CARRERA: 
+ Ing. en sistemas computacionales
 
-# MATERIA:
-# Datos masivos
+ MATERIA:
+ Datos masivos
 
-# TÍTULO:​ ​
-# Proyecto Final
+ TÍTULO:​ ​
+ Proyecto Final
 
-# UNIDAD​ ​A​ ​EVALUAR:​
-# ​Unidad​ ​4
-# NOMBRE Y NÚMERO DE CONTROL DEL ALUMNO:
-# Jacuinde Solis Ricardo Javier 16212025
-# Jimenez Ramirez Julio Fabian 17212147
+ UNIDAD​ ​A​ ​EVALUAR:​
+ ​Unidad​ ​4
+ NOMBRE Y NÚMERO DE CONTROL DEL ALUMNO:
+ Jacuinde Solis Ricardo Javier 16212025
+ Jimenez Ramirez Julio Fabian 17212147
 
-# NOMBRE DEL DOCENTE :
-# Jose Christian Romero Hernandez
+ NOMBRE DEL DOCENTE :
+ Jose Christian Romero Hernandez
 </center>
 
 
