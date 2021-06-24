@@ -94,8 +94,11 @@ Función de base radial (RBF)
 Sigmoide
 
 Ventajas
+
 Los clasificadores de Máquinas de Vectores de Soporte ofrecen una buena precisión y realizan predicciones más rápidas en comparación con el algoritmo de Naive Bayes. También utilizan menos memoria porque utilizan un subconjunto de puntos de entrenamiento en la fase de decisión. Este algoritmo funciona bien con un claro margen de separación y con un espacio dimensional elevado.
+
 Desventajas
+
 Las Máquinas de Vectores de Soporte no son adecuadas para grandes conjuntos de datos debido a su alto tiempo de formación y también requiere más tiempo de formación en comparación con Naive Bayes. Funciona mal con clases superpuestas y también es sensible al tipo de núcleo utilizado.
 
 
@@ -116,28 +119,22 @@ Los tipos de árboles de decisión se basan en el tipo de variable objetivo que 
  
  
 Algunas ventajas de los árboles de decisión son:
-Sencillo de entender e interpretar. Los árboles se pueden visualizar.
-Requiere poca preparación de datos. Otras técnicas a menudo requieren la normalización de datos, es necesario crear variables ficticias y eliminar valores en blanco. Sin embargo, tenga en cuenta que este módulo no admite valores perdidos.
-El costo de usar el árbol (es decir, predecir datos) es logarítmico en el número de puntos de datos usados ​​para entrenar el árbol.
+
+- Sencillo de entender e interpretar. Los árboles se pueden visualizar.
+
+- Requiere poca preparación de datos. Otras técnicas a menudo requieren la normalización de datos, es necesario crear variables ficticias y eliminar valores en blanco. Sin embargo, tenga en cuenta que este módulo no admite valores perdidos.
+
+- El costo de usar el árbol (es decir, predecir datos) es logarítmico en el número de puntos de datos usados ​​para entrenar el árbol.
+
 Las desventajas de los árboles de decisión incluyen:
-Los aprendices de árboles de decisión pueden crear árboles demasiado complejos que no generalizan bien los datos. A esto se le llama sobreajuste. Mecanismos como la poda, el establecimiento del número mínimo de muestras necesarias en un nodo de la hoja o el establecimiento de la profundidad máxima del árbol son necesarios para evitar este problema.
-Los árboles de decisión pueden ser inestables porque pequeñas variaciones en los datos pueden resultar en la generación de un árbol completamente diferente. Este problema se mitiga mediante el uso de árboles de decisión dentro de un conjunto.
-Las predicciones de los árboles de decisión no son uniformes ni continuos, sino aproximaciones constantes por partes, como se ve en la figura anterior. Por lo tanto, no son buenos para la extrapolación.
+
+- Los aprendices de árboles de decisión pueden crear árboles demasiado complejos que no generalizan bien los datos. A esto se le llama sobreajuste. Mecanismos como la poda, el establecimiento del número mínimo de muestras necesarias en un nodo de la hoja o el establecimiento de la profundidad máxima del árbol son necesarios para evitar este problema.
+
+- Los árboles de decisión pueden ser inestables porque pequeñas variaciones en los datos pueden resultar en la generación de un árbol completamente diferente. Este problema se mitiga mediante el uso de árboles de decisión dentro de un conjunto.
+
+- Las predicciones de los árboles de decisión no son uniformes ni continuos, sino aproximaciones constantes por partes, como se ve en la figura anterior. Por lo tanto, no son buenos para la extrapolación.
  
  
- 
- 
- 
-
-
-
-
-
-
-
-
-
-
 
  ## Logistic Regression
 
