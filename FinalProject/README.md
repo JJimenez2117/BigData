@@ -79,7 +79,11 @@ Una máquina de vectores de soporte (SVM) es un algoritmo de aprendizaje supervi
 
 El objetivo del algoritmo SVM es encontrar un hiperplano que en la mejor medida posible separe los puntos de datos de una clase de los de la otra, para separar dos clases de datos hay muchos hiperplanos posibles. El objetivo del algoritmo es encontrar el que esté a mayor distancia entre los datos de ambas clases.
 
+![imagen1](https://github.com/JJimenez2117/BigData/blob/Unit4/FinalProject/SVM1.PNG)
+
 Para obtener el plano más alejado de los dos conjuntos de clases se tiene que calcular la distancia perpendicular de cada observación a un determinado hiperplano. La menor de estas distancias (conocida como margen) determina como de alejado está el hiperplano de las observaciones de entrenamiento.
+
+![imagen1](https://github.com/JJimenez2117/BigData/blob/Unit4/FinalProject/SVM2.PNG)
 
 Los puntos que se encuentran el las fronteras de los margenes son conocidos como vectores de soporte, SVM busca maximizar el margen entre los puntos y el hiperplano.
 Tipos
