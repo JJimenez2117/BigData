@@ -1,7 +1,7 @@
 
-<p align="center"> </p>
+<div style="text-align:center">
 
- TECNOLÓGICO​ ​NACIONAL​ ​DE​ ​MÉXICO
+ TECNOLÓGICO NACIONAL DE MÉXICO
   INSTITUTO TECNOLÓGICO DE TIJUANA
 
  SUBDIRECCIÓN ACADÉMICA
@@ -16,17 +16,18 @@
  MATERIA:
  Datos masivos
 
- TÍTULO:​ ​
+ TÍTULO:
  Proyecto Final
 
- UNIDAD​ ​A​ ​EVALUAR:​
- ​Unidad​ ​4
+ UNIDAD A EVALUAR:
+ Unidad 4
  NOMBRE Y NÚMERO DE CONTROL DEL ALUMNO:
  Jacuinde Solis Ricardo Javier 16212025
  Jimenez Ramirez Julio Fabian 17212147
 
  NOMBRE DEL DOCENTE :
- Jose Christian Romero Hernandez </p>
+ Jose Christian Romero Hernandez 
+</div>
 
   
 
