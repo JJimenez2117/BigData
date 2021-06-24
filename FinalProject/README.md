@@ -18,7 +18,9 @@
  Proyecto Final
 
  UNIDAD A EVALUAR:
+ 
  Unidad 4
+ 
  NOMBRE Y NÚMERO DE CONTROL DEL ALUMNO:
  
  Jacuinde Solis Ricardo Javier 16212025
@@ -26,6 +28,7 @@
  Jimenez Ramirez Julio Fabian 17212147
 
  NOMBRE DEL DOCENTE :
+ 
  Jose Christian Romero Hernandez 
 </div>
 
