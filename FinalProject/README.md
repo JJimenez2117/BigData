@@ -1,6 +1,7 @@
 
+<p align="center">
 
-<center>  TECNOLÓGICO​ ​NACIONAL​ ​DE​ ​MÉXICO
+ TECNOLÓGICO​ ​NACIONAL​ ​DE​ ​MÉXICO
   INSTITUTO TECNOLÓGICO DE TIJUANA
 
  SUBDIRECCIÓN ACADÉMICA
@@ -26,7 +27,8 @@
 
  NOMBRE DEL DOCENTE :
  Jose Christian Romero Hernandez
-</center>
+
+  </p>
 
 
 
