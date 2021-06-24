@@ -30,4 +30,4 @@ This is the team's repository
 - [Evaluation practice3](https://github.com/JJimenez2117/BigData/blob/Unit3/evaluationPractice/README.md)
 
 ## Unit 4
-- [Final Projecto](https://github.com/JJimenez2117/BigData/tree/Unit4/FinalProject)
+- [Final Project](https://github.com/JJimenez2117/BigData/tree/Unit4/FinalProject)
