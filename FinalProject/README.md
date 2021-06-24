@@ -105,15 +105,14 @@ Los árboles de decisión son un método de aprendizaje supervisado no paramétr
 
  en el ejemplo siguiente, los árboles de decisión aprenden de los datos para aproximar una curva sinusoidal con un conjunto de reglas de decisión si-entonces-si no. Cuanto más profundo es el árbol, más complejas son las reglas de decisión y más ajustado es el modelo.
 
-
+![imagen1](https://github.com/JJimenez2117/BigData/blob/Unit4/FinalProject/DTR.PNG)
 
 Los tipos de árboles de decisión se basan en el tipo de variable objetivo que tenemos. Puede ser de dos tipos:
  
- 
- 
- 
-Árbol de decisión de variable categórica: árbol de  decisión que tiene una variable objetivo categórica y luego se llama  árbol de decisión de variable categórica.
-Árbol de decisión de variable continua: El árbol de  decisión tiene una variable de destino continua, por lo que se denomina  Árbol de decisión de variable continua.
+  
+- Árbol de decisión de variable categórica: árbol de  decisión que tiene una variable objetivo categórica y luego se llama  árbol de decisión de variable categórica.
+
+- Árbol de decisión de variable continua: El árbol de  decisión tiene una variable de destino continua, por lo que se denomina  Árbol de decisión de variable continua.
  
  
 Algunas ventajas de los árboles de decisión son:
@@ -153,7 +152,7 @@ Sin embargo, la regresión logística es una técnica clásica de modelado predi
 
 Otra ventaja de la regresión logística es que calcula una puntuación de probabilidad de predicción de un evento. Más sobre eso cuando empieces a construir los modelos
 
-
+![imagen1](https://github.com/JJimenez2117/BigData/blob/Unit4/FinalProject/LoR.PNG)
 
 Comparando con la regresión lineal, cuando la variable de respuesta tiene solo 2 valores posibles, es deseable tener un modelo que prediga el valor como 0 o 1 o como una puntuación de probabilidad que oscile entre 0 y 1.
 
@@ -169,6 +168,8 @@ Un perceptrón multicapa (MLP) es una clase de red neuronal artificial de retroa
 El perceptrón es muy útil para clasificar conjuntos de datos que son linealmente separables. Se encuentran con serias limitaciones con conjuntos de datos que no se ajustan a este patrón como se descubrió con el problema XOR. El problema XOR muestra que para cualquier clasificación de cuatro puntos existe un conjunto que no es separable linealmente.
 MultiLayer Perceptron (MLP) rompe esta restricción y clasifica conjuntos de datos que no son separables linealmente. Lo hacen utilizando una arquitectura más robusta y compleja para aprender modelos de regresión y clasificación para conjuntos de datos difíciles.
 El Perceptrón consta de una capa de entrada y una capa de salida que están completamente conectadas. Los MLP tienen las mismas capas de entrada y salida, pero pueden tener múltiples capas ocultas entre las capas mencionadas anteriormente, como se ve a continuación.
+
+![imagen1](https://github.com/JJimenez2117/BigData/blob/Unit4/FinalProject/MLP.PNG)
 
 La capa de entrada consta de neuronas que aceptan los valores de entrada. La salida de estas neuronas es la misma que la de los predictores de entrada. Los nodos de la capa de entrada representan los datos de entrada. Todos los demás nodos asignan entradas a salidas mediante una combinación lineal de las entradas con los pesos de los nodos w y el sesgo aplicando una función de activación. Esto se puede escribir en forma de matriz para MLPC con capas K + 1 de la siguiente manera: Input_Layer
 Las capas ocultas se encuentran entre las capas de entrada y salida. Normalmente, el número de capas ocultas varía de una a muchas. Es la capa de cálculo central que tiene las funciones que mapean la entrada a la salida de un nodo. Los nodos de las capas intermedias utilizan la función sigmoidea (logística), como sigue Hidden_Layer
