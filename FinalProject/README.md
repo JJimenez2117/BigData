@@ -183,6 +183,7 @@ En este proyecto utilizamos mayormente dos tecnologías en este caso son:
 - spark 
 
 spark
+
 Apache Spark es un motor de análisis unificado para el procesamiento de datos a gran escala. Proporciona API de alto nivel en Java, Scala, Python y R, y un motor optimizado que admite gráficos de ejecución general. También es compatible con un amplio conjunto de herramientas de alto nivel que incluyen Spark SQL para SQL y procesamiento de datos estructurados, MLlib para aprendizaje automático, GraphX ​​para procesamiento de gráficos y Structured Streaming para procesamiento incremental y flujo de datos.
 
 
